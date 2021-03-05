@@ -1,0 +1,136 @@
+html {
+    font-family: "Open sans", sans-serif;
+}
+
+header {
+    background-color: orange;
+    width: 100%;
+    padding: 5px;
+}
+
+
+/* nav {
+    float: left;
+    color: white;
+} */
+
+.btn {
+    float: left;
+    padding: 5px 15px 5px 15px;
+    border-radius: 0 0 10px 10px;
+    background: darkblue;
+    color: white;
+    text-align: center;
+}
+
+.active {
+    background: green;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    position: relative;
+    padding: 2px;
+    overflow: auto;
+    border: 1px dotted black;
+}
+
+.left-bar {
+    position: relative;
+    float: left;
+    width: 12%;
+}
+
+li {
+    list-style: none;
+}
+
+.neg-margin {
+    margin-left: -40px;
+}
+
+.nomargin {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.left {
+    position: relative;
+    float: left;
+}
+
+table,
+th,
+td,
+.libox {
+    border: 2px solid black;
+}
+
+.ovrflo {
+    overflow: auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clearing {
+    clear: both;
+}
+
+.nobo {
+    border: none;
+}
+
+.box-small {
+    border: 2px solid black;
+    width: 130px;
+    height: 75px;
+    padding: 3px;
+}
+
+
+/*.box-medium {
+    border: 2px solid black;
+    width: 150px;
+    height: 75px;
+    padding: 3px;
+} */
+
+.box-large {
+    border: 2px solid black;
+    width: 800px;
+    height: 75px;
+    padding: 3px;
+}
+
+.headrow {
+    height: auto;
+    text-align: center;
+    color: yellow;
+    background: darkblue;
+}
+
+.thumbs {
+    height: 75px;
+    width: 60px;
+}
