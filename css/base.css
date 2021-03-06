@@ -9,13 +9,13 @@ header {
     margin: auto;
     padding: 15px;
     background-color: #e0e8e7;
+    color: white;
 }
 
-
-/* nav {
-    float: left;
+nav {
+    /*float: left; */
     color: white;
-} */
+}
 
 .btn {
     float: left;
@@ -97,9 +97,8 @@ td,
 
 /* Hyperlink management section */
 
-a:header {
+{
     text-decoration: none;
-    color: white;
 }
 
 a {
