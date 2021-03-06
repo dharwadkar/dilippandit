@@ -100,6 +100,7 @@ td,
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 a:hover {
@@ -177,8 +178,8 @@ h1 {
     margin: 5px;
 }
 
-.white {
-    color: white;
+.blue {
+    color: blue;
 }
 
 
