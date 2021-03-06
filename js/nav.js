@@ -1,8 +1,8 @@
 //Define the arrays for the links location
 
-var links = new Array("necorner", "tripreps", "stories", "birdalbum", "birdwatch", "delhibirds", "contactus", "faq");
-var links_text = new Array("North-East Corner", "Trip Reports", "Stories", "Bird Album", "Bird Watching", "Birds around Delhi", "Contact Us", "FAQ");
-var links_url = new Array("necorner.html", "tripreps.html", "stories.html", "birdalbum.html", "birdwatch.html", "delhibirds.html", "contactus.html", "faq.html");
+var links = new Array("necorner", "tripreps", "stories", "birdalbum", "birdwatch", "delhibirds", "contactus", "faq", "aboutme");
+var links_text = new Array("North-East Corner", "Trip Reports", "Stories", "Bird Album", "Bird Watching", "Birds around Delhi", "Contact Us", "FAQ", "About Me");
+var links_url = new Array("necorner.html", "tripreps.html", "stories.html", "birdalbum.html", "birdwatch.html", "delhibirds.html", "contactus.html", "faq.html", "aboutme.html");
 
 //Resolve the location
 
