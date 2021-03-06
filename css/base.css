@@ -43,6 +43,7 @@ main {
     position: relative;
     float: left;
     width: 12%;
+    margin-top: 20px;
 }
 
 li {
