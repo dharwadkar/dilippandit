@@ -138,6 +138,9 @@ a:hover {
     width: 60px;
 }
 
+
+/* Text formatting section */
+
 h1 {
     margin: 0;
     padding: 20px, 0;
@@ -148,3 +151,17 @@ h1 {
     text-align: center;
     text-shadow: 3px 3px 1px black;
 }
+
+.centered {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    color: #697681;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+
+/* Text formatting section */
