@@ -25,6 +25,6 @@ function dyn_menu_gen() {
 }
 
 //Now, generate the menu
-document.write("<ul class=\"main-menu\" > ");
+document.write("<ul>");
 dyn_menu_gen();
 document.write("</ul>");
