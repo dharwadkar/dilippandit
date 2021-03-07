@@ -3,8 +3,8 @@
 var links = new Array("tripreps/index", "stories", "birdalbum", "birdwatch", "delhibirds", "contactus", "faq", "aboutme");
 var links_text = new Array("Trip Reports", "Stories", "Bird Album", "Bird Watching", "Birds around Delhi", "Contact Us", "FAQ", "About Me");
 var links_url = new Array("/tripreps/index.html", "stories.html", "birdalbum.html", "birdwatch.html", "delhibirds.html", "contactus.html", "faq.html", "aboutme.html");
-
-//Resolve the location
+var index = "index.html"
+    //Resolve the location
 
 var loc = String(this.location);
 
@@ -12,8 +12,8 @@ loc = loc.split("/");
 console.log(loc)
 console.log(loc.length)
 loc = loc[loc.length - 1].split(".");
-loc = loc[loc.length - 2];
-console.log("The location is", loc[-2])
+loc = loc[loc.length - 3];
+console.log("The location is", loc)
 
 //Menu generating function
 function dyn_menu_gen() {
@@ -21,7 +21,7 @@ function dyn_menu_gen() {
         if (loc == links[i]) {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
-            document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
+            document.write('<li class=\"btn\"><a href=\"' + links[i] + "/" + index '\">' + links_text[i] + '</a></li>');
         }
         //document.write('<table.cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td></td></tr></table>');
     }
