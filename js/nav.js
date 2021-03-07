@@ -9,18 +9,15 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 loc = loc[loc.length - 1].split(".");
-console.log("location:", loc)
 loc = loc[loc.length - 2];
-console.log("location:", loc)
-
 
 //Menu generating function
 function dyn_menu_gen() {
     for (var i = 0; i < links.length; i++) {
         if (loc == links[i]) {
-            document.write('<li class=\"main-menu__item main-menu__current-item\"><a href = \"#\">' + links_text[i] + '</a></li>');
+            document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
-            document.write('<li class=\"main-menu__item\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
+            document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
         }
         //document.write('<table.cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td></td></tr></table>');
     }
