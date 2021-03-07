@@ -9,7 +9,7 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 console.log("Location is: ", loc)
-baseloc = loc[log.length - 2]
+baseloc = loc[loc.length - 2]
 console.log("Base Location is: ", baseloc)
     //loc = loc[loc.length - 2]
     //console.log("Location -2 is: ", loc)
