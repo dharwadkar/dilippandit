@@ -48,6 +48,7 @@ main {
     background: darkblue;
     color: white;
     text-align: center;
+    z-index: -1;
 }
 
 .left-bar {
