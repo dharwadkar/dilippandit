@@ -13,7 +13,7 @@ console.log(loc)
 console.log(loc.length)
 loc = loc[loc.length - 1].split(".");
 loc = loc[loc.length - 2];
-console.log("location is", loc)
+console.log("The location is", loc)
 
 //Menu generating function
 function dyn_menu_gen() {
