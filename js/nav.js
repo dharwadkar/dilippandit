@@ -11,10 +11,18 @@ var loc = String(this.location);
 loc = loc.split("/");
 console.log(loc)
 console.log(loc.length)
-loc = loc[loc.length - 1].split(".");
-console.log(loc)
-loc = loc[loc.length - 2];
-console.log("The location is", loc)
+if (loc.length === 5) {
+    loc = loc[loc.length - 2].split(".");
+    console.log(loc)
+    loc = loc[loc.length - 2];
+    console.log("The location is", loc)
+} else {
+    loc = loc[loc.length - 1].split(".");
+    console.log(loc)
+    loc = loc[loc.length - 2];
+    console.log("The location is", loc)
+}
+
 
 //Menu generating function
 function dyn_menu_gen() {
