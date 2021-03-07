@@ -9,8 +9,8 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 console.log("Location is: ", loc)
-loc = loc[loc.length - 2]
-console.log("Location -2 is: ", loc)
+    //loc = loc[loc.length - 2]
+    //console.log("Location -2 is: ", loc)
 loc = loc[loc.length - 1].split(".");
 console.log("Split Location is: ", loc)
 loc = loc[loc.length - 2];
