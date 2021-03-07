@@ -8,24 +8,16 @@ var links_url = new Array("/tripreps/index.html", "stories/index.html", "birdalb
 var loc = String(this.location);
 
 loc = loc.split("/");
-//loc = loc.split(".");
-console.log("Location is: ", loc)
-baseloc = loc[loc.length - 2]
-console.log("Base Location is: ", baseloc)
-    //loc = loc[loc.length - 2]
-    //console.log("Location -2 is: ", loc)
-loc = loc[loc.length - 2].split(".");
-console.log("Split Location is: ", loc)
+loc = loc[loc.length - 1].split(".");
 loc = loc[loc.length - 2];
-console.log("Location is: ", loc)
 
 //Menu generating function
 function dyn_menu_gen() {
     for (var i = 0; i < links.length; i++) {
         if (loc == links[i]) {
-            document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
+            document.write('<li class=\"main-menu__item main-menu__current-item\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
-            document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
+            document.write('<li class=\"main-menu__item\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
         }
         //document.write('<table.cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td></td></tr></table>');
     }
