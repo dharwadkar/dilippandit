@@ -21,6 +21,7 @@ function dyn_menu_gen() {
         if (loc === links[i]) {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
+            console.log("Links URL: ", links_url[i]);
             document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
         }
         //document.write('<table.cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td></td></tr></table>');
