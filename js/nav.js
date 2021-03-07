@@ -9,7 +9,7 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 for (var i = 0; i < loc.length; i++) {
-    console.log("Location 1", loc[i]);
+    console.log("Location", i, "is: ", loc[i]);
 }
 loc = loc[loc.length - 1].split(".");
 loc = loc[loc.length - 2];
