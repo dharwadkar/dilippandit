@@ -41,7 +41,8 @@ main {
 }
 
 .necorner {
-    float: right;
+    top: 0px;
+    right: 0px;
     position: absolute;
     padding: 5px 15px 5px 15px;
     background: darkblue;
