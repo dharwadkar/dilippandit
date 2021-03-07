@@ -19,7 +19,7 @@ console.log(loc.length)
             //loc = loc[loc.length - 1];
         console.log("The location is", loc)
     } else { */
-baseloc = loc[loc.length - 1]
+baseloc = loc[loc.length - 2]
 console.log("Base loc is", baseloc)
 loc = loc[loc.length - 1].split(".");
 console.log(loc)
