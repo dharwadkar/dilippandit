@@ -8,24 +8,9 @@ var links_url = new Array("/tripreps/index.html", "stories/index.html", "birdalb
 var loc = String(this.location);
 
 loc = loc.split("/");
-/* console.log(loc)
-console.log(loc.length)
-    if (loc.length === 5) {
-        baseloc = loc[loc.length - 2]
-        console.log(baseloc)
-        loc = loc[loc.length - 2] + "/index.html";
-        console.log(loc)
-            //loc = loc[loc.length - 1];
-        console.log("The location is", loc)
-    } else { */
 loc = loc[loc.length - 2]
-    //console.log("Base loc is", baseloc)
 loc = loc[loc.length - 1].split(".");
-//console.log(loc)
 loc = loc[loc.length - 2];
-//console.log("The location is", loc)
-//}
-
 
 //Menu generating function
 function dyn_menu_gen() {
@@ -33,7 +18,6 @@ function dyn_menu_gen() {
         if (loc == links[i]) {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
-            //console.log(links[i]);
             document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
         }
         //document.write('<table.cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td></td></tr></table>');
