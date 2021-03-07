@@ -30,7 +30,7 @@ if (loc.length === 5) {
 //Menu generating function
 function dyn_menu_gen() {
     for (var i = 0; i < links.length; i++) {
-        if (loc == links[i]) {
+        if (baseloc == links[i]) {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
             console.log(links[i]);
