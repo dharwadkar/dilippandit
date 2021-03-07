@@ -8,7 +8,7 @@ header {
     height: auto;
     margin: auto;
     padding: 15px;
-    background-color: #e0e8e7;
+    background-color: lightsalmon;
     color: white;
 }
 
@@ -22,13 +22,13 @@ header {
     float: left;
     padding: 5px 15px 5px 15px;
     border-radius: 0 0 10px 10px;
-    background: darkblue;
+    background: skyblue;
     color: white;
     text-align: center;
 }
 
 .active {
-    background: green;
+    background: lightgreen;
 }
 
 main {
