@@ -31,7 +31,6 @@ function dyn_menu_gen() {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
             console.log(links[i]);
-
             document.write('<li class=\"btn\"><a href=\"' + links[i] + "/" + index + '\">' + links_text[i] + '</a></li>');
         }
         //document.write('<table.cellspacing="0" cellpadding="0" bgcolor="#FFFFFF"><tr><td></td></tr></table>');
