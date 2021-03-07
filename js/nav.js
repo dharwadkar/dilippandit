@@ -12,7 +12,7 @@ loc = loc.split("/");
 console.log(loc)
 console.log(loc.length)
 if (loc.length === 5) {
-    loc = loc[loc.length - 2];
+    loc = loc[loc.length - 2] + index;
     console.log(loc)
         //loc = loc[loc.length - 1];
     console.log("The location is", loc)
