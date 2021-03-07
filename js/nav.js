@@ -11,20 +11,20 @@ var loc = String(this.location);
 loc = loc.split("/");
 console.log(loc)
 console.log(loc.length)
-if (loc.length === 5) {
-    baseloc = loc[loc.length - 2]
-    console.log(baseloc)
-    loc = loc[loc.length - 2] + "/index.html";
-    console.log(loc)
-        //loc = loc[loc.length - 1];
-    console.log("The location is", loc)
-} else {
-    baseloc = loc[loc.length - 1]
-    loc = loc[loc.length - 1].split(".");
-    console.log(loc)
-    loc = loc[loc.length - 2];
-    console.log("The location is", loc)
-}
+    /* if (loc.length === 5) {
+        baseloc = loc[loc.length - 2]
+        console.log(baseloc)
+        loc = loc[loc.length - 2] + "/index.html";
+        console.log(loc)
+            //loc = loc[loc.length - 1];
+        console.log("The location is", loc)
+    } else { */
+baseloc = loc[loc.length - 1]
+loc = loc[loc.length - 1].split(".");
+console.log(loc)
+loc = loc[loc.length - 2];
+console.log("The location is", loc)
+    //}
 
 
 //Menu generating function
