@@ -9,7 +9,9 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 loc = loc[loc.length - 1].split(".");
+console.log("Location 1", loc)
 loc = loc[loc.length - 2];
+console.log("Location 2", loc)
 
 //Menu generating function
 function dyn_menu_gen() {
