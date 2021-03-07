@@ -42,6 +42,11 @@ main {
 
 .necorner {
     float: right;
+    position: absolute;
+    padding: 5px 15px 5px 15px;
+    background: darkblue;
+    color: white;
+    text-align: center;
 }
 
 .left-bar {
