@@ -7,7 +7,8 @@ var links_url = new Array("/tripreps/index.html", "stories/index.html", "birdalb
 
 var loc = String(this.location);
 
-loc = loc.split("/");
+//loc = loc.split("/");
+loc = loc.split(".");
 console.log("Location is: ", loc)
 baseloc = loc[loc.length - 2]
 console.log("Base Location is: ", baseloc)
