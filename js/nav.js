@@ -19,6 +19,7 @@ if (loc.length === 5) {
         //loc = loc[loc.length - 1];
     console.log("The location is", loc)
 } else {
+    baseloc = loc[loc.length - 1]
     loc = loc[loc.length - 1].split(".");
     console.log(loc)
     loc = loc[loc.length - 2];
