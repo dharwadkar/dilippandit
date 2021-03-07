@@ -9,6 +9,8 @@ var links_url = new Array("/tripreps/index.html", "stories.html", "birdalbum.htm
 var loc = String(this.location);
 
 loc = loc.split("/");
+console.log(loc)
+console.log(log.length)
 loc = loc[loc.length - 1].split(".");
 loc = loc[loc.length - 2];
 
