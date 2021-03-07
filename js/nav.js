@@ -10,7 +10,7 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 console.log(loc)
-console.log(log.length)
+console.log(loc.length)
 loc = loc[loc.length - 1].split(".");
 loc = loc[loc.length - 2];
 
