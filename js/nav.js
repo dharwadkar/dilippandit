@@ -9,14 +9,17 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 loc = loc[loc.length - 1].split(".");
-console.log("Location 1", loc)
+for (var i = 0; i < loc.length; i++) {
+    console.log("Location 1", loc[i]);
+}
+
 loc = loc[loc.length - 2];
-console.log("Location 2", loc)
+console.log("Location 2", loc);
 
 //Menu generating function
 function dyn_menu_gen() {
     for (var i = 0; i < links.length; i++) {
-        if (loc == links[i]) {
+        if (loc === links[i]) {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
             document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
