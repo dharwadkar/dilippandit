@@ -2,7 +2,7 @@
 
 var links = new Array("tripreps/index", "stories/index", "birdalbum", "birdwatch", "delhibirds", "contactus", "faq", "aboutme");
 var links_text = new Array("Trip Reports", "Stories", "Bird Album", "Bird Watching", "Birds around Delhi", "Contact Us", "FAQ", "About Me");
-var links_url = new Array("/tripreps/index.html", "stories/index.html", "birdalbum.html", "birdwatch.html", "delhibirds.html", "contactus.html", "faq.html", "aboutme.html");
+var links_url = new Array("/tripreps/index.html", "stories/index.html", "/birdalbum.html", "birdwatch.html", "delhibirds.html", "contactus.html", "faq.html", "aboutme.html");
 //Resolve the location
 
 var loc = String(this.location);
