@@ -6,6 +6,7 @@ var links_url = new Array("tripreps/index.html", "stories/index.html", "birdalbu
 //Resolve the location
 
 var loc = String(this.location);
+console.log("Current Location is: ", loc);
 
 loc = loc.split("/");
 if (loc.length === 4) {
