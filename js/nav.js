@@ -32,7 +32,7 @@ function dyn_menu_gen() {
         if (loc === links[i]) {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
-            console.log("Links URL: ", links[i]);
+            console.log("Links are: ", links[i]);
             console.log("Links URL: ", links_url[i]);
             document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
         }
