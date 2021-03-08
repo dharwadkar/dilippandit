@@ -17,6 +17,7 @@ nav {
     color: white;*/
     padding-bottom: 5px;
     margin-bottom: 5px;
+    overflow: auto;
 }
 
 .btn {
