@@ -9,9 +9,10 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 if (loc.length === 4) {
-    loc3 = loc[loc.length - 1];
-    console.log("Loc3 is: ", loc3)
+    loc1 = loc[loc.length - 1];
+    console.log("Loc1 is: ", loc1)
     loc = loc[loc.length - 1].split(".")
+    loc = loc[0]
     console.log(loc)
 } else {
     loc1 = loc[loc.length - 2];
