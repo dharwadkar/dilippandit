@@ -113,12 +113,15 @@ td,
 
 a {
     text-decoration: none;
-    /*color: white;*/
 }
 
 a:hover {
     text-decoration: underline;
     color: #697681;
+}
+
+a.navi {
+    color: white;
 }
 
 
