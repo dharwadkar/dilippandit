@@ -11,6 +11,11 @@ loc = loc.split("/");
 if (loc.length === 4) {
     loc = loc[loc.length - 1].split(".")
     console.log(loc)
+} else {
+    loc1 = loc[loc.length - 2];
+    console.log("Loc1 is: ", loc1);
+    loc2 = loc[loc.length - 1];
+    console.log("Loc2 is: ", loc2);
 }
 for (var i = 0; i < loc.length; i++) {
     console.log("Location", i, "is: ", loc[i]);
