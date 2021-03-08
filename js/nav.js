@@ -9,6 +9,8 @@ var loc = String(this.location);
 
 loc = loc.split("/");
 if (loc.length === 4) {
+    loc3 = loc[loc.length - 1];
+    console.log("Loc3 is: ", loc3)
     loc = loc[loc.length - 1].split(".")
     console.log(loc)
 } else {
@@ -30,6 +32,7 @@ function dyn_menu_gen() {
         if (loc === links[i]) {
             document.write('<li class=\"btn active\"><a href = \"#\">' + links_text[i] + '</a></li>');
         } else {
+            console.log("Links URL: ", links[i]);
             console.log("Links URL: ", links_url[i]);
             document.write('<li class=\"btn\"><a href=\"' + links_url[i] + '\">' + links_text[i] + '</a></li>');
         }
