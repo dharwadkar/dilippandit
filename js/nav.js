@@ -17,8 +17,11 @@ if (loc.length === 4) {
 } else {
     loc1 = loc[loc.length - 2];
     console.log("Loc1 is: ", loc1);
-    loc2 = loc[loc.length - 1];
+    loc2 = loc[loc.length - 1].split(".");
+    loc2 = loc2[0];
     console.log("Loc2 is: ", loc2);
+    loc = loc1 + "/" + loc2;
+    console.log("Location is: ", loc);
 }
 /*for (var i = 0; i < loc.length; i++) {
     console.log("Location", i, "is: ", loc[i]);
