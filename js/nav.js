@@ -20,9 +20,9 @@ if (loc.length === 4) {
     loc2 = loc[loc.length - 1];
     console.log("Loc2 is: ", loc2);
 }
-for (var i = 0; i < loc.length; i++) {
+/*for (var i = 0; i < loc.length; i++) {
     console.log("Location", i, "is: ", loc[i]);
-}
+}*/
 loc = loc[loc.length - 1].split(".");
 loc = loc[loc.length - 2];
 console.log("Location 2", loc);
