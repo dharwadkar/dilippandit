@@ -22,10 +22,10 @@ if (loc.length === 4) {
 }
 /*for (var i = 0; i < loc.length; i++) {
     console.log("Location", i, "is: ", loc[i]);
-}*/
+}
 loc = loc[loc.length - 1].split(".");
 loc = loc[loc.length - 2];
-console.log("Location 2", loc);
+console.log("Location 2", loc); */
 
 //Menu generating function
 function dyn_menu_gen() {
