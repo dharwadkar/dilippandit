@@ -8,6 +8,10 @@ var links_url = new Array("/tripreps/index.html", "stories/index.html", "birdalb
 var loc = String(this.location);
 
 loc = loc.split("/");
+if (loc.length === 4) {
+    loc = loc[loc.length - 1].split(".")
+    console.log(loc)
+}
 for (var i = 0; i < loc.length; i++) {
     console.log("Location", i, "is: ", loc[i]);
 }
