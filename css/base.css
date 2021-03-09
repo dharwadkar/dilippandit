@@ -46,8 +46,7 @@ main {
 footer {
     margin: auto;
     text-align: center;
-    width: 100%;
-    height: 50px;
+    size: 100%;
 }
 
 .necorner {
