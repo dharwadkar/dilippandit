@@ -5,7 +5,7 @@ html {
 
 header {
     position: relative;
-    size: 100%;
+    width: 100%;
     height: auto;
     margin: auto;
     padding: 15px;
@@ -46,7 +46,7 @@ main {
 footer {
     margin: auto;
     text-align: center;
-    size: 100%;
+    width: 100%;
 }
 
 .necorner {
