@@ -180,7 +180,7 @@ a:hover {
 .medimg {
     height: 250px;
     width: 250px;
-    padding: 3px;
+    padding: 0 8px 0 0;
 }
 
 
