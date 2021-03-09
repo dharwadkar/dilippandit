@@ -1,6 +1,6 @@
 html {
     font-family: "Didact Gothic", "Open sans", sans-serif;
-    /*line-height: 175%;*/
+    line-height: 175%;
 }
 
 header {
@@ -188,7 +188,7 @@ a:hover {
 
 h1 {
     margin: 0;
-    padding: 20px, 0;
+    padding: 20px 0;
     /*color: #00539F;*/
     color: #7fc3e1;
     font-weight: bold;
