@@ -16,7 +16,8 @@ if (loc.length === 4) {
     loc1 = loc[loc.length - 2];
     loc2 = loc[loc.length - 1].split(".");
     loc2 = loc2[0];
-    loc = loc1 + "/" + loc2;
+    //loc = loc1 + "/" + loc2;
+    loc = loc1 + "/";
 }
 
 //Menu generating function
