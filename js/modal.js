@@ -1,6 +1,6 @@
 var modal = document.querySelector(".modal");
 // var trigger = document.querySelector(".trigger");
-var closeButton = document.querySelector(".close-button");
+// var closeButton = document.querySelector(".close-button");
 
 $(document).ready(toggleModal);
 
@@ -14,12 +14,12 @@ function windowOnLoad(event) {
     }
 };
 
-function closeButton(event) {
+/* function closeButton(event) {
     if (event.target !== modal) {
         $(document).ready(toggleModal().hide());
     }
 };
 
 // trigger.addEventListener("load", toggleModal);
-closeButton.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal); */
 window.addEventListener("load", windowOnLoad);
