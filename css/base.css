@@ -183,6 +183,13 @@ a:hover {
     padding: 0 8px 0 0;
 }
 
+#head_img {
+    position: relative;
+    /*height: 110px;
+    width: 369px;*/
+    z-index: -1;
+}
+
 
 /* Text formatting section */
 
