@@ -270,10 +270,12 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: lightskyblue;
+    background-color: whitesmoke;
+    border-color: blue;
     padding: 1rem 1.5rem;
     width: 20%;
     border-radius: 0.5rem;
+    border-width: thick;
 }
 
 .close-button {
