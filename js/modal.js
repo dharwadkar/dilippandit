@@ -21,5 +21,5 @@ function closeModal(event) {
 };
 
 // trigger.addEventListener("load", toggleModal);
-document.addEventListener("click", toggleModal);
+document.addEventListener("click", closeModal);
 window.addEventListener("load", windowOnLoad);
