@@ -16,7 +16,7 @@ function windowOnLoad(event) {
 
 function closeModal(event) {
     if (event.target !== modal) {
-        $(document).ready(toggleModal.hide());
+        document.querySelector(".modal").style.display = "none"
     }
 };
 
