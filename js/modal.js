@@ -14,12 +14,12 @@ function windowOnLoad(event) {
     }
 };
 
-/*function closeModal(event) {
+function closeModal(event) {
     if (event.target !== modal) {
-        $(document).ready(toggleModal.close());
+        $(document).ready(toggleModal.hide());
     }
-};*/
+};
 
 // trigger.addEventListener("load", toggleModal);
-document.addEventListener("click", toggleModal);
+document.addEventListener("click", closeModal("click"));
 window.addEventListener("load", windowOnLoad);
