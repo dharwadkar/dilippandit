@@ -222,9 +222,9 @@ h1 {
 
 .new {
     color: #fff;
-    padding: 5px;
+    padding: 3px;
     display: inline-block;
-    border-radius: 3px;
+    border-radius: 5px;
     animation: blinkingBackground 2s infinite;
 }
 
