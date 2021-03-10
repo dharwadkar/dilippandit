@@ -185,9 +185,10 @@ a:hover {
 
 .head_img {
     position: relative;
+    margin: 0;
     /*height: 110px;
-    width: 369px;*/
-    z-index: -1;
+    width: 369px;
+    z-index: -1;*/
 }
 
 
