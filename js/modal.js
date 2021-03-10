@@ -16,7 +16,7 @@ function windowOnLoad(event) {
 
 function closeButton(event) {
     if (event.target !== modal) {
-        $(document).ready(toggleModal().hide());
+        $(document).ready(toggleModal.hide());
     }
 };
 
