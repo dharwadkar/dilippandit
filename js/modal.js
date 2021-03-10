@@ -15,7 +15,7 @@ function windowOnLoad(event) {
 };
 
 function closeModal(event) {
-    if (event.target !== modal) {
+    if (event.target === modal) {
         document.querySelector(".modal").style.display = "none"
     }
 };
