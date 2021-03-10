@@ -220,5 +220,31 @@ h1 {
     color: black;
 }
 
+.new {
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+    animation: blinkingBackground 2s infinite;
+}
+
+@keyframes blinkingBackground {
+    0% {
+        background-color: yellow;
+    }
+    25% {
+        background-color: #fff;
+    }
+    50% {
+        background-color: yellow;
+    }
+    75% {
+        background-color: #fff;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
+
 
 /* Text formatting section */
