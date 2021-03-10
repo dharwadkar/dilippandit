@@ -16,10 +16,10 @@ function windowOnLoad(event) {
 
 function closeModal(event) {
     if (event.target !== modal) {
-        $(document).ready(toggleModal.close());
+        $(document).ready(toggleModal.hide());
     }
 };
 
 // trigger.addEventListener("load", toggleModal);
 document.addEventListener("click", closeModal);
-window.addEventListener("load", windowOnLoad);
+document.addEventListener("load", windowOnLoad);
