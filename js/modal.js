@@ -7,17 +7,17 @@ $(document).ready(toggleModal);
 function toggleModal() {
     if (localStorage.getItem('popState') != "shown") {
         $(".modal").delay(2000).fadeIn();
-        //modal.classList.toggle("show-modal");
+        modal.classList.toggle("show-modal");
         localStorage.setItem('popState', 'shown')
     }
 
 };
 
-/*function windowOnLoad(event) {
+function windowOnLoad(event) {
     if (event.target === modal) {
         $(document).ready(toggleModal());
     }
-};*/
+};
 
 function closeModal(event) {
     if (event.target === modal) {
