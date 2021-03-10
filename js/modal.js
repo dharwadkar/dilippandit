@@ -6,7 +6,7 @@ $(document).ready(function toggleModal() {
     modal.classList.toggle("show-modal");
 });
 
-$document.ready(function windowOnLoad(event) {
+$(document).ready(function windowOnLoad(event) {
     if (event.target === modal) {
         toggleModal();
     }
