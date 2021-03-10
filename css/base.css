@@ -275,7 +275,7 @@ h1 {
     padding: 1rem 1.5rem;
     width: 20%;
     border-radius: 0.5rem;
-    border-width: thick;
+    border-width: 3px;
 }
 
 .close-button {
