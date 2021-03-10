@@ -1,5 +1,5 @@
 var modal = document.querySelector(".modal");
-var trigger = document.querySelector(".trigger");
+// var trigger = document.querySelector(".trigger");
 var closeButton = document.querySelector(".close-button");
 
 $(document).ready(toggleModal);
@@ -14,6 +14,6 @@ function windowOnLoad(event) {
     }
 };
 
-trigger.addEventListener("load", toggleModal);
-closeButton.addEventListener("load", toggleModal);
+// trigger.addEventListener("load", toggleModal);
+closeButton.addEventListener("click", toggleModal);
 window.addEventListener("load", windowOnLoad);
