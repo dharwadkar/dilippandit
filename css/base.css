@@ -194,6 +194,7 @@ a:hover {
 .new-img {
     height: 20px;
     width: 20px;
+    float: left;
     display: inline-block;
     animation: blink-img 2s infinite;
 }
@@ -201,7 +202,8 @@ a:hover {
 .banner-new-img {
     height: 50px;
     width: 50px;
-    display: inline-block;
+    float: left;
+    display: inline;
     animation: blink-img 2s infinite;
 }
 
