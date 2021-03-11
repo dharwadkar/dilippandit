@@ -14,9 +14,11 @@ header {
 }
 
 #banner {
-    max-width: 80%;
+    max-width: 100%;
     background-color: navajowhite;
     height: 50px;
+    font-size: x-large;
+    font-weight: bold;
 }
 
 nav {
