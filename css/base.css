@@ -195,7 +195,7 @@ a:hover {
     height: 20px;
     width: 20px;
     float: left;
-    display: inline-block;
+    display: inline;
     animation: blink-img 2s infinite;
 }
 
