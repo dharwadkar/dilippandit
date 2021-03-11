@@ -13,6 +13,12 @@ header {
     color: white;
 }
 
+#banner {
+    max-width: 80%;
+    background-color: navajowhite;
+    height: 50px;
+}
+
 nav {
     /*float: left;
     color: white;*/
