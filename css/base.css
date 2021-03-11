@@ -191,6 +191,32 @@ a:hover {
     padding: 0 8px 0 0;
 }
 
+.new-img {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    animation: blink-img 2s infinite;
+}
+
+.banner-new-img {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    animation: blink-img 2s infinite;
+}
+
+@keyframes blink-img {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .head_img {
     position: relative;
     margin: 0;
@@ -240,13 +266,7 @@ h1 {
     0% {
         background-color: yellow;
     }
-    25% {
-        background-color: #fff;
-    }
     50% {
-        background-color: yellow;
-    }
-    75% {
         background-color: #fff;
     }
     100% {
