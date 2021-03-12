@@ -377,7 +377,7 @@ h1 {
     display: block;
 }
 
-.dropdown a:hover {
+.dropdown li a:hover {
     background-color: lightgreen;
 }
 
