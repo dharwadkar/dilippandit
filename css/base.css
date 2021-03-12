@@ -403,10 +403,6 @@ ul li ul li {
     padding: 0 15px;
 } */
 
-.dropdown2>.dropdown3 {
-    bottom: -25%;
-}
-
 .dropdown li:hover {
     background-color: lightgreen;
 }
