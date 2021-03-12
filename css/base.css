@@ -358,10 +358,12 @@ h1 {
     display: none;
     background-color: darkblue;
     z-index: 1;
+    position: absolute;
 }
 
 .drop {
     display: block;
+    height: 40px;
 }
 
 .drop:hover {
