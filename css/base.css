@@ -370,7 +370,7 @@ h1 {
     z-index: 1;
     position: absolute;
     min-width: 125px;
-    /*padding: 0 15px;*/
+    padding: 0 15px;
     right: 155px;
     float: left;
 }
@@ -393,8 +393,7 @@ h1 {
     display: block;
 }
 
-.dropdown li,
-.dropdown3 li {
+.dropdown li {
     padding: 0 15px;
 }
 
