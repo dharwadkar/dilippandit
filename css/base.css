@@ -368,10 +368,11 @@ h1 {
     display: none;
     background-color: darkblue;
     z-index: 1;
-    position: relative;
+    position: absolute;
     min-width: 125px;
     /*padding: 0 15px;*/
-    right: 125px;
+    right: 140px;
+    top: 75%;
 }
 
 .drop {
