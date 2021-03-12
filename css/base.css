@@ -364,7 +364,8 @@ h1 {
 
 .drop {
     display: block;
-    height: 20px;
+    height: 30px;
+    width: 150px;
 }
 
 .drop:hover {
