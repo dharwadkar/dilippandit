@@ -364,6 +364,17 @@ h1 {
     left: 0;
 }
 
+.dropdown2 {
+    display: none;
+    background-color: darkblue;
+    z-index: 1;
+    position: absolute;
+    min-width: 125px;
+    /*padding: 0 15px;*/
+    right: 0;
+    left: 0;
+}
+
 .drop {
     display: block;
     height: 28px;
@@ -378,11 +389,17 @@ h1 {
     display: block;
 }
 
-.dropdown li {
+.dropdown:hover .dropdown2 {
+    display: block;
+}
+
+.dropdown,
+.dropdown2 li {
     padding: 0 15px;
 }
 
-.dropdown li:hover {
+.dropdown,
+.dropdown2 li:hover {
     background-color: lightgreen;
 }
 
