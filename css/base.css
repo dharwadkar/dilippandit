@@ -364,7 +364,7 @@ h1 {
     left: 0;
 }
 
-.dropdown2 {
+.dropdown3 {
     display: none;
     background-color: darkblue;
     z-index: 1;
@@ -389,7 +389,7 @@ h1 {
     display: block;
 }
 
-.drop:hover .dropdown2 {
+.dropdown2:hover .dropdown3 {
     display: block;
 }
 
