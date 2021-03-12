@@ -361,6 +361,7 @@ h1 {
     min-width: 125px;
     /*padding: 0 15px;*/
     right: 0;
+    left: 0;
 }
 
 .drop {
