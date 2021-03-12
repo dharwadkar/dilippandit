@@ -357,10 +357,9 @@ h1 {
     display: none;
     background-color: darkblue;
     /* z-index: 1; */
-    position: relative;
+    position: absolute;
     width: 125px;
     padding: 5px 15px;
-    offset-position: 15px;
 }
 
 ul li ul li {
