@@ -364,7 +364,7 @@ h1 {
     left: 0;
 }
 
-.dropdown2 ul li {
+li .dropdown2 ul li {
     position: relative;
     display: inline-block;
 }
