@@ -372,7 +372,7 @@ h1 {
     background-color: lightgreen;
 }
 
-.drop:hover>.dropdown {
+.drop:hover .dropdown {
     display: block;
 }
 
