@@ -393,13 +393,11 @@ h1 {
     display: block;
 }
 
-.dropdown,
-.dropdown2 li {
+.dropdown li {
     padding: 0 15px;
 }
 
-.dropdown,
-.dropdown2 li:hover {
+.dropdown li:hover {
     background-color: lightgreen;
 }
 
