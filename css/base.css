@@ -397,10 +397,6 @@ h1 {
     padding: 0 15px;
 }
 
-.dropdown3 li {
-    top: -10em;
-}
-
 .dropdown li:hover {
     background-color: lightgreen;
 }
