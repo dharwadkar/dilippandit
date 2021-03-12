@@ -362,6 +362,10 @@ h1 {
     padding: 5px 15px;
 }
 
+ul li ul li {
+    padding: 5px 15px;
+}
+
 .drop {
     display: block;
     height: 28px;
