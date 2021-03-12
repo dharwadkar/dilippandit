@@ -396,8 +396,12 @@ h1 {
     padding: 0 15px;
 }
 
+.dropdown3 li {
+    padding: 0 15px;
+}
+
 .dropdown3 ul {
-    top: 0;
+    top: -1rem;
 }
 
 .dropdown li:hover {
