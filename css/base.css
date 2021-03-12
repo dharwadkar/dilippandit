@@ -191,6 +191,12 @@ a:hover {
     padding: 0 8px 0 0;
 }
 
+.art-img-port {
+    height: 300px;
+    width: 225px;
+    padding: 3px;
+}
+
 .new-img {
     height: 20px;
     width: 20px;
