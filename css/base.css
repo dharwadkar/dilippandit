@@ -368,7 +368,7 @@ h1 {
     display: none;
     background-color: darkblue;
     z-index: 1;
-    position: relative;
+    position: absolute;
     min-width: 125px;
     padding: 0 15px;
     right: 155px;
@@ -395,6 +395,10 @@ h1 {
 
 .dropdown li {
     padding: 0 15px;
+}
+
+.dropdown2 a .dropdown3 {
+    top: 0;
 }
 
 .dropdown li:hover {
