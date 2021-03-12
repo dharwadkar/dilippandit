@@ -371,7 +371,7 @@ h1 {
     position: absolute;
     min-width: 125px;
     /*padding: 0 15px;*/
-    right: 0;
+    right: 125px;
     left: 0;
 }
 
