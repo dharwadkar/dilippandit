@@ -392,16 +392,13 @@ h1 {
     display: block;
 }
 
-.dropdown li {
-    padding: 0 15px;
-}
-
+.dropdown,
 .dropdown3 li {
     padding: 0 15px;
 }
 
 .dropdown3 ul {
-    top: -1rem;
+    top: -1em;
 }
 
 .dropdown li:hover {
