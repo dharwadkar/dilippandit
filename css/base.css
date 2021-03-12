@@ -359,6 +359,7 @@ h1 {
     z-index: 1;
     position: absolute;
     min-width: 125px;
+    padding: 5px 15px 5px 15px;
 }
 
 .drop {
