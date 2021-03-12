@@ -357,10 +357,9 @@ h1 {
     display: none;
     background-color: darkblue;
     /* z-index: 1; */
-    position: absolute;
+    position: relative;
     width: 125px;
     padding: 5px 15px;
-    margin-right: 15px;
 }
 
 ul li ul li {
