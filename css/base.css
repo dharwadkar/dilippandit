@@ -371,8 +371,8 @@ h1 {
     position: absolute;
     min-width: 125px;
     /*padding: 0 15px;*/
-    right: 150px;
-    bottom: -3em;
+    right: 155px;
+    float: left;
 }
 
 .drop {
