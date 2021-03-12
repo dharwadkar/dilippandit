@@ -356,7 +356,7 @@ h1 {
 
 .dropdown {
     display: none;
-    background-color: lightgreen;
+    background-color: darkblue;
     z-index: 1;
 }
 
@@ -366,6 +366,7 @@ h1 {
 
 .drop:hover .dropdown {
     display: block;
+    background-color: lightgreen;
 }
 
 
