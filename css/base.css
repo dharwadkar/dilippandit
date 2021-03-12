@@ -360,11 +360,12 @@ h1 {
     z-index: 1;
     position: absolute;
     width: 125px;
+    padding: 15px;
 }
 
 .drop {
     display: block;
-    height: 30px;
+    height: 28px;
     width: 125px;
 }
 
