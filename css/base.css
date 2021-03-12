@@ -364,9 +364,12 @@ h1 {
     display: block;
 }
 
+.drop:hover {
+    background-color: lightgreen;
+}
+
 .drop:hover .dropdown {
     display: block;
-    background-color: lightgreen;
 }
 
 
