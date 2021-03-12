@@ -364,5 +364,9 @@ h1 {
     display: block;
 }
 
+.drop:hover .dropdown:hover {
+    display: block;
+}
+
 
 /* End Drop Down */
