@@ -397,7 +397,7 @@ h1 {
     padding: 0 15px;
 }
 
-.dropdown2 .dropdown3 {
+.dropdown2>.dropdown3 {
     top: 0;
 }
 
