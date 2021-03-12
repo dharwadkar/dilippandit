@@ -368,7 +368,7 @@ h1 {
     display: none;
     background-color: darkblue;
     z-index: 1;
-    position: absolute;
+    position: relative;
     min-width: 125px;
     /*padding: 0 15px;*/
     right: 125px;
