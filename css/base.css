@@ -377,9 +377,12 @@ h1 {
     display: block;
 }
 
+.dropdown li {
+    padding: 0 15px;
+}
+
 .dropdown li:hover {
     background-color: lightgreen;
-    min-width: 125px;
 }
 
 
