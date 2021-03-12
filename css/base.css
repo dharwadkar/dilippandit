@@ -380,6 +380,7 @@ h1 {
 .dropdown li:hover {
     background-color: lightgreen;
     padding: 0 15px;
+    min-width: 125px;
 }
 
 
