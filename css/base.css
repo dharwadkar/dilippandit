@@ -398,16 +398,14 @@ h1 {
     display: block;
 }
 
-
-/*.dropdown li,
+.dropdown li,
 .dropdown3 li {
     padding: 0 15px;
 }
 
-
- .dropdown2>.dropdown3 {
+.dropdown2>.dropdown3 {
     bottom: -25%;
-}*/
+}
 
 .dropdown li:hover {
     background-color: lightgreen;
