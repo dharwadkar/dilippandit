@@ -375,7 +375,7 @@ li .dropdown2 ul li {
     z-index: 1;
     position: absolute;
     min-width: 125px;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     right: 155px;
     float: left;
 }
@@ -403,9 +403,10 @@ li .dropdown2 ul li {
     padding: 0 15px;
 }
 
-.dropdown2>.dropdown3 {
+
+/* .dropdown2>.dropdown3 {
     bottom: -25%;
-}
+}*/
 
 .dropdown li:hover {
     background-color: lightgreen;
