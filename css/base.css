@@ -359,7 +359,7 @@ h1 {
     z-index: 1;
     position: absolute;
     min-width: 125px;
-    padding: 0 15px;
+    /*padding: 0 15px;*/
     right: 0;
 }
 
