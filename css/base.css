@@ -394,12 +394,12 @@ h1 {
 }
 
 .dropdown li,
-dropdown3 li {
+.dropdown3 li {
     padding: 0 15px;
 }
 
 .dropdown2>.dropdown3 {
-    top: 25%;
+    bottom: -25%;
 }
 
 .dropdown li:hover {
