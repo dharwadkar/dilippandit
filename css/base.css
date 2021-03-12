@@ -372,7 +372,6 @@ h1 {
     min-width: 125px;
     /*padding: 0 15px;*/
     right: 140px;
-    top: 0;
 }
 
 .drop {
@@ -395,6 +394,10 @@ h1 {
 
 .dropdown li {
     padding: 0 15px;
+}
+
+.dropdown3 li {
+    top: 0;
 }
 
 .dropdown li:hover {
