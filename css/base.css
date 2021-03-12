@@ -359,6 +359,7 @@ h1 {
     background-color: darkblue;
     z-index: 1;
     position: absolute;
+    width: inherit;
 }
 
 .drop {
