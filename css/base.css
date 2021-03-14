@@ -196,6 +196,12 @@ a:hover {
     padding: 3px;
 }
 
+.art-img-land {
+    height: 30%;
+    width: 30%;
+    padding: 3px;
+}
+
 .new-img {
     height: 20px;
     width: 20px;
