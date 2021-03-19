@@ -204,9 +204,9 @@ a:hover {
 }
 
 .art-img-large {
-    height: 75%;
-    width: 75%;
-    padding: 3px;
+    height: 50%;
+    width: 50%;
+    padding: 10px;
     display: block;
 }
 
