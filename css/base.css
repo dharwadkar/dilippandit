@@ -197,9 +197,10 @@ a:hover {
 }
 
 .art-img {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     padding: 3px;
+    display: block;
 }
 
 .new-img {
