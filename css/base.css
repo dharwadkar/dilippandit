@@ -197,8 +197,15 @@ a:hover {
 }
 
 .art-img {
-    height: 40%;
-    width: 40%;
+    height: 30%;
+    width: 30%;
+    padding: 3px;
+    display: block;
+}
+
+.art-img-large {
+    height: 75%;
+    width: 75%;
     padding: 3px;
     display: block;
 }
