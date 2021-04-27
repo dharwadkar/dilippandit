@@ -1,5 +1,5 @@
 function upDate(element){
-    document.getElementById('image').innerHTML = element.alt;
+    document.getElementById('image').innerHTML = element.src;
   }
   function unDo(){
     document.getElementById('image').innerHTML = "Hover over an image below to display here.";
