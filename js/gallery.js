@@ -1,5 +1,8 @@
 function upDate(element){
-    document.getElementById('image').innerHTML = element.img;
+    let img = document.createElement("IMG)";
+    img.src = "/img/" + element;
+    //document.getElementById('image').innerHTML = element.img;
+    document.getElementById('image').appendChild(img);
   }
   function unDo(){
     document.getElementById('image').innerHTML = "Hover over an image below to display here.";
