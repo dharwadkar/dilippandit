@@ -1,11 +1,11 @@
 function upDate(element){
-    let img = document.createElement("IMG");
-    img.src = "/img/" + element;
-    //document.getElementById('image').innerHTML = element.img;
-    document.getElementById('image').appendChild(img);
+    //let img = document.createElement("IMG");
+    //img.src = "/img/" + element;
+    document.getElementById('image').innerHTML = element.src;
+    //document.getElementById('image').src = img;
   }
   function unDo(){
-    document.getElementById('image').innerHTML = "Hover over an image below to display here.";
+    document.getElementById('image').innerHTML = " ";
   }
   function openFunction(){
     el = document.getElementById("content");
