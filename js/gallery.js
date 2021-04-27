@@ -1,5 +1,5 @@
 function upDate(element){
-    let img = document.createElement("IMG)";
+    let img = document.createElement("IMG");
     img.src = "/img/" + element;
     //document.getElementById('image').innerHTML = element.img;
     document.getElementById('image').appendChild(img);
