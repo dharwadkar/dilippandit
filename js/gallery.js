@@ -1,7 +1,9 @@
 function upDate(element){
     //let img = document.createElement("IMG");
     //img.src = "/img/" + element;
-    document.getElementsByClassName('preview').getAttribute('src');
+    let imgsrc = document.getElementsByClassName('preview').getAttribute('src')
+    console.log(imgsrc)
+    document.getElementById('image').innerHTML = imgsrc;
     //document.getElementById('image').src = img;
   }
   function unDo(){
