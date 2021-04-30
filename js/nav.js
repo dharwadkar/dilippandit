@@ -1,14 +1,14 @@
 //Define the arrays for the links location
 
-var links = new Array("index", "tripreps/", "stories/", "contactus");
-var links_text = new Array("Home", "Trip Reports", "Stories", "Contact Us");
-var links_url = new Array("/index.html", "/tripreps/", "/stories/", "/contactus.html");
+let links = new Array("index", "tripreps/", "stories/", "birdalbum", "contactus");
+let links_text = new Array("Home", "Trip Reports", "Stories", "Bird Album", "Contact Us");
+let links_url = new Array("/index.html", "/tripreps/", "/stories/", "/birdalbum.html", "/contactus.html");
 /*var links = new Array("tripreps/", "stories/", "birdalbum", "birdwatch", "delhibirds", "contactus", "faq", "aboutme");
 var links_text = new Array("Trip Reports", "Stories", "Bird Album", "Bird Watching", "Birds around Delhi", "Contact Us", "FAQ", "About Me");
 var links_url = new Array("/tripreps/", "/stories/", "/birdalbum.html", "/birdwatch.html", "/delhibirds.html", "/contactus.html", "/faq.html", "/aboutme.html");*/
 //Resolve the location
 
-var loc = String(this.location);
+let loc = String(this.location);
 
 loc = loc.split("/");
 if (loc.length === 4) {
@@ -25,7 +25,7 @@ if (loc.length === 4) {
 
 //Menu generating function
 function dyn_menu_gen() {
-    for (var i = 0; i < links.length; i++) {
+    for (let i = 0; i < links.length; i++) {
         if (loc === links[i]) {
             document.write('<li class=\"btn active\"><a class="navi" href = \"#\">' + links_text[i] + '</a></li>');
         } else {
