@@ -110,7 +110,7 @@
     <div class="clearfix"></div>
     <main>
         <h2 class="centered">Birds around Chambal River near Morena MP</h2>
-        <div id="myModal" class="modal">
+        
         <div class="album">
             <img onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Ruddy Shelduck" src="/img/ruddyshellduck.jpeg" />
             <img onclick="openModal();currentSlide(2)" class="hover-shadow" alt="Grey heron in breeding plumage" src="/img/greyheron.jpeg" />
@@ -123,9 +123,29 @@
             <img onclick="openModal();currentSlide(9)" class="hover-shadow" alt="River Tern" src="/img/rivertern.jpeg" />
             <img onclick="openModal();currentSlide(10)" class="hover-shadow" alt="Great Thicknee" src="/img/greatthicknee.jpeg" />
         </div>
-
+    <div id="myModal" class="modal">
         <div class="mySlides">
             <img alt="Ruddy Shelduck" src="/img/ruddyshellduck.jpeg" />
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <!-- Caption text>
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div-->
+        <div class="album">
+            <img onclick="currentSlide(1)" class="demo" alt="Ruddy Shelduck" src="/img/ruddyshellduck.jpeg" />
+            <img onclick="currentSlide(2)" class="demo" alt="Grey heron in breeding plumage" src="/img/greyheron.jpeg" />
+            <img onclick="currentSlide(3)" class="demo" alt="Flock of flying Indian Skimmers" src="/img/indianskimmers.jpeg" />
+            <img onclick="currentSlide(4)" class="demo" alt="Black-winged Stilts" src="/img/blackwingedstilts.jpeg" />
+            <img onclick="currentSlide(5)" class="demo" alt="Lesser Whistling Ducks" src="/img/lesserwhistlingducks.jpeg" />
+            <img onclick="currentSlide(6)" class="demo" alt="A pair of Small Pratincoles" src="/img/smallpratincoles.jpeg" />
+            <img onclick="currentSlide(7)" class="demo" alt="Bar headed Goose" src="/img/barheadedgoose.jpeg" />
+            <img onclick="currentSlide(8)" class="demo" alt="Small Pratincole" src="/img/smallpratincole.jpeg" />
+            <img onclick="currentSlide(9)" class="demo" alt="River Tern" src="/img/rivertern.jpeg" />
+            <img onclick="currentSlide(10)" class="demo" alt="Great Thicknee" src="/img/greatthicknee.jpeg" />
         </div>
     </div>
     </main>
