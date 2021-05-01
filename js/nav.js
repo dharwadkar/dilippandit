@@ -1,8 +1,8 @@
 //Define the arrays for the links location
 
-let links = new Array("index", "tripreps/", "stories/", "birdalbum", "contactus");
-let links_text = new Array("Home", "Trip Reports", "Stories", "Bird Album", "Contact Us");
-let links_url = new Array("/index.html", "/tripreps/", "/stories/", "/birdalbum.html", "/contactus.html");
+let links = new Array("index", "tripreps/", "stories/", "birdalbum", "delhibirds", "contactus");
+let links_text = new Array("Home", "Trip Reports", "Stories", "Bird Album", "Birds around Delhi", "Contact Us");
+let links_url = new Array("/index.html", "/tripreps/", "/stories/", "/birdalbum.html", "/delhibirds.html", "/contactus.html");
 /*var links = new Array("tripreps/", "stories/", "birdalbum", "birdwatch", "delhibirds", "contactus", "faq", "aboutme");
 var links_text = new Array("Trip Reports", "Stories", "Bird Album", "Bird Watching", "Birds around Delhi", "Contact Us", "FAQ", "About Me");
 var links_url = new Array("/tripreps/", "/stories/", "/birdalbum.html", "/birdwatch.html", "/delhibirds.html", "/contactus.html", "/faq.html", "/aboutme.html");*/
