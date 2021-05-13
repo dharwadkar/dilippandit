@@ -201,6 +201,12 @@ a:hover {
     transform: scale(1.1);
 }
 
+.album video {
+    height: 18%;
+    width: 18%;
+    padding: 5px;
+}
+
 /* Album management */
 
 /* Image Manipulation */
