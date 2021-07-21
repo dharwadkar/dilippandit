@@ -334,6 +334,10 @@ h1 {
     }
 }
 
+.itabold {
+    font-weight: bold;
+    font-style: italic;
+}
 
 /* Text formatting section */
 
